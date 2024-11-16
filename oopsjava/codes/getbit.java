@@ -1,3 +1,5 @@
+package oopsjava.codes;
+
 import java.util.Scanner;
 public class getbit {
   public static void main(String []args)

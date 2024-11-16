@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package oopsjava.codes;
 
+import java.util.Scanner;
 public class functioncall {
     public static void PrintMyName (String name)
     {

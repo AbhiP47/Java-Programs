@@ -1,3 +1,5 @@
+package oopsjava.codes;
+
 public class passingclasstofunctions
 {
   public class Students
