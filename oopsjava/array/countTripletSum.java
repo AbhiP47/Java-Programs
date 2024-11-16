@@ -33,5 +33,6 @@ public class countTripletSum {
         System.out.println("enter the target sum");
         int target = sc.nextInt();
         System.out.println(CountTriplets(arr , target));
+        sc.close();
     }
 }
