@@ -3,37 +3,17 @@ import java.util.Scanner;
 class ReverseArray{
     public static int[] reverse(int[] arr)
     {
-        int n = arr.length;
-        int i=0;
-        while(i<n)
+        int ans[] = new int[arr.length];
+        int k =0;
+        int n = arr.length-1;
+        for(int i=0; i<arr.length; i++)
         {
-           int temp = arr[n-1];
-           arr[n-1] = arr[i];
-           arr[i] = temp;
-           i++;
-           n--;
-
+            ans[k++] = arr[n--];
         }
-        return arr;
-    }
-  public static void  printArray(int[] arr)
-    {
-       for(int ar : arr)
-       {
-           System.out.println(ar);
-       }
+        return ans;
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number of elements in the array");
-        int n = sc.nextInt();
-        System.out.println("enter the elements in the array");
-        int[] arr = new int[n];
-        for(int i=0; i<n; i++)
-        {
-            arr[i] = sc.nextInt();
-        }
-        reverse(arr);
-        printArray(arr);
+        int[] arr = functions.inputArray();
+        functions.printArray(reverse(arr));
     }
 }

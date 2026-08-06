@@ -1,5 +1,5 @@
-package oopsjava;
-import java.util.*;
+package oopsjava.Strings;
+
 public class StringBuilderProgram {
     public static void main(String[] args) {
         StringBuilder str = new StringBuilder("Hello");
