@@ -1,3 +1,5 @@
+package oopsjava.codes;
+
 import java.util.Scanner;
 public class matrixsearch {
   public static void main(String []args)

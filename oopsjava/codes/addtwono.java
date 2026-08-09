@@ -1,3 +1,4 @@
+package oopsjava.codes;
 import java.util.Scanner;
 public class addtwono {
 public  static int AddTwoNo( int a , int b)

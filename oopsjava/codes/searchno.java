@@ -1,3 +1,5 @@
+package oopsjava.codes;
+
 import java.util.Scanner;
 public class searchno 
 {

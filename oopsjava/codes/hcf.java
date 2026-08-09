@@ -19,6 +19,6 @@ public class hcf
                 }
             }
         System.out.println(hcf);
-            sc.close();
+        sc.close();
     }
 }
