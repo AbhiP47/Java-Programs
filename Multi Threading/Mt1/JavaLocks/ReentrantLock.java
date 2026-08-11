@@ -1,6 +1,7 @@
 package JavaLocks;
 
 import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class ReentrantLock {
     public static void main(String[] args) {
@@ -46,7 +47,7 @@ public class ReentrantLock {
 
 class Resource{
 
-    Lock lock = new java.util.concurrent.locks.ReentrantLock();
+    Lock lock = new java.util.concurrent.locks.ReentrantLock(true);
     void f1()
     {
         lock.lock();
